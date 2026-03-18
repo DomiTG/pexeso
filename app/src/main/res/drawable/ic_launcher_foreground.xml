@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M0,0h108v108h-108z" />
+    <text
+        android:fontFamily="sans-serif"
+        android:textSize="72sp" />
+    <!-- Simple "P" letter as launcher icon placeholder -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,20 L30,88 L44,88 L44,60 L62,60 Q80,60 80,40 Q80,20 62,20 Z
+                          M44,34 L60,34 Q66,34 66,40 Q66,46 60,46 L44,46 Z" />
+</vector>

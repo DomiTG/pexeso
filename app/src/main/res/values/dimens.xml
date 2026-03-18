@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Card dimensions -->
+    <dimen name="card_margin">3dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_emoji_text_size">28sp</dimen>
+    <dimen name="card_back_text_size">22sp</dimen>
+
+    <!-- Layout spacing -->
+    <dimen name="grid_padding">4dp</dimen>
+    <dimen name="moves_text_size">18sp</dimen>
+    <dimen name="high_score_text_size">22sp</dimen>
+    <dimen name="button_margin_top">24dp</dimen>
+</resources>
