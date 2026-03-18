@@ -23,7 +23,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- Invisible spacer that forces a 1:1 aspect ratio -->
+        <!--
+            Invisible spacer that forces a 1:1 aspect ratio.
+            paddingTop="100%" is computed relative to the parent's WIDTH,
+            so this View always has height == width, making the card square
+            on any screen size or density.
+        -->
         <View
             android:layout_width="match_parent"
             android:layout_height="0dp"
