@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pexeso</string>
+
+    <!-- Main screen -->
+    <string name="moves_label">Tahy: %1$d</string>
+    <string name="menu_high_score">Nejlepší skóre</string>
+    <string name="menu_new_game">Nová hra</string>
+
+    <!-- Game over dialog -->
+    <string name="dialog_game_over_title">Gratulujeme!</string>
+    <string name="dialog_game_over_message">Dokončili jste hru za %1$d tahů.</string>
+    <string name="dialog_new_high_score">🏆 Nový rekord!</string>
+    <string name="dialog_play_again">Hrát znovu</string>
+    <string name="dialog_view_high_score">Nejlepší skóre</string>
+
+    <!-- High score screen -->
+    <string name="high_score_title">Nejlepší skóre</string>
+    <string name="high_score_none">Zatím žádné skóre</string>
+    <string name="high_score_value">Nejlepší skóre: %1$d tahů</string>
+    <string name="btn_reset_high_score">Resetovat skóre</string>
+    <string name="btn_back">Zpět</string>
+
+    <!-- Reset confirmation dialog -->
+    <string name="reset_confirm_title">Resetovat skóre</string>
+    <string name="reset_confirm_message">Opravdu chcete smazat nejlepší skóre?</string>
+    <string name="reset_confirm_yes">Ano</string>
+    <string name="reset_confirm_no">Ne</string>
+
+    <!-- Card content description for accessibility -->
+    <string name="card_back_description">Zadní strana karty</string>
+    <string name="card_front_description">Přední strana karty</string>
+</resources>

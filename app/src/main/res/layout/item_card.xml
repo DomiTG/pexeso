@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Square card item for the Pexeso grid.
+    Uses a ConstraintLayout with a 1:1 aspect ratio so that each cell is
+    perfectly square on every screen size.
+-->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation">
+
+    <!--
+        FrameLayout keeps the front and back views stacked at the same position.
+        Only one is visible at a time.  The paddingTop trick (100%) creates a
+        square intrinsic height based on the view's width.
+    -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Invisible spacer that forces a 1:1 aspect ratio -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingTop="100%" />
+
+        <!-- Back face: dark blue with "?" -->
+        <TextView
+            android:id="@+id/tv_card_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/card_back_description"
+            android:gravity="center"
+            android:text="?"
+            android:textColor="@color/card_back_text"
+            android:textSize="@dimen/card_back_text_size"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <!-- Front face: light blue with emoji -->
+        <TextView
+            android:id="@+id/tv_card_front"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/card_front_description"
+            android:gravity="center"
+            android:textSize="@dimen/card_emoji_text_size"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
